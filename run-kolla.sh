@@ -113,5 +113,5 @@ cat <<-EOF | sudo su
 . /etc/kolla/admin-openrc.sh
 ./init-runonce
 EOF
-echo "Horizon available at 10.0.0.10, user 'admin', password below:"
+echo "Horizon available at 10.143.19.61, user 'admin', password below:"
 grep keystone_admin_password /etc/kolla/passwords.yml
